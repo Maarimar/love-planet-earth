@@ -1,0 +1,99 @@
+
+.container{
+    position: relative;
+    background-color: rgba(183, 229, 221, 0.6);
+    width: 1512px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.earthicon{
+    height: 107px;
+    width:107px ;
+    padding: 40px;
+}
+
+.top-page{
+   background-color: #9A86A4;
+   height: 160px;
+   width: 1512px ;
+   position:fixed;
+
+
+}
+
+.vallecocora{
+    height:825px ;
+    width:1512px ;
+
+}
+
+.maintittle{
+    font-family: Lexend Deca;
+    font-size: 46;
+    font-weight: 700 ;
+    color: white;
+    position:fixed;
+    left: 280px;
+    top: 49px;
+
+}
+
+.navbar  {
+display: flex;
+align-items: flex-end;
+position: fixed;
+left: 1058px;
+top: 49px;
+list-style: none;
+
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-decoration: none;
+
+
+color: #FFFFFF;
+
+}
+
+.navbar * {
+    display: inline;
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+
+.heroImg h1{
+    font-family: 'Lexend Deca';
+    margin-left: 40px;
+    padding: 80px;
+    font-size: 50px ;
+    font-weight: 700 ;
+    position: absolute;
+    color: #F1F0C0;
+    top: 300px;
+
+}
+
+.heroImg h2{
+    font-family: 'Lexend Deca';
+    position: absolute;
+    color: #FFFFFF;
+
+
+}
+
+.heroImg p{
+    font-size: 22px;
+    font-family: Roboto;
+
+
+}
