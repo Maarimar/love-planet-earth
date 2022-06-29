@@ -1,7 +1,9 @@
 
+/* main page style and nav bar for rest */
+
 .container{
     position: relative;
-    background-color: rgba(183, 229, 221, 0.6);
+    background-color: rgba(183, 229, 221, 0.4);
     width: 1512px;
     padding-left: 100px;
     padding-right: 100px;
@@ -21,6 +23,7 @@
    height: 160px;
    width: 1512px ;
    position:fixed;
+   z-index: 2;
 
 
 }
@@ -28,6 +31,9 @@
 .vallecocora{
     height:825px ;
     width:1512px ;
+    filter: grayscale(70%);
+    filter: opacity(70%);
+    z-index: -1;
 
 }
 
@@ -39,6 +45,7 @@
     position:fixed;
     left: 280px;
     top: 49px;
+    z-index: 2;
 
 }
 
@@ -49,6 +56,7 @@ position: fixed;
 left: 1058px;
 top: 49px;
 list-style: none;
+z-index: 2;
 
 font-family: 'Lexend Deca';
 font-style: normal;
@@ -75,25 +83,162 @@ color: #FFFFFF;
     font-family: 'Lexend Deca';
     margin-left: 40px;
     padding: 80px;
-    font-size: 50px ;
-    font-weight: 700 ;
-    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
     color: #F1F0C0;
+    position: absolute;
     top: 300px;
+    z-index: 1;
+
 
 }
 
 .heroImg h2{
     font-family: 'Lexend Deca';
+    margin-left: 85px;
+    padding:30px;
     position: absolute;
     color: #FFFFFF;
+    position: absolute;
+    top: 490px;
+    font-size: 30px;
 
 
 }
 
 .heroImg p{
     font-size: 22px;
+    font-weight: 300;
     font-family: Roboto;
+    position:absolute;
+    color: #FFFFFF;
+    padding: 30px;
+    margin-left: 90px;
+    top: 550px
 
+
+
+}
+
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+
+    position: relative;
+}
+
+section h2{
+    font-family: Lexend Deca;
+    font-size: 40px;
+    font-weight: 500;
+    color: #B1BCE6;
+
+}
+
+section p{
+    font-family: Roboto;
+    font-size: 22;
+    padding: 50px;
+    padding-top: 10px;
+    line-height: 150%;
+}
+
+
+/* form */
+
+.joinUs{
+    position: absolute;
+    margin: 200px;
+    width: 1000px;
+
+}
+
+.joinUs legend{
+    font-size: 50px;
+    font-family: Lexend Deca;
+    color: #B1BCE6;
+
+
+}
+
+.joinUs label{
+    font-size: 35;
+    font-family: Lexend Deca;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.joinUs h3{
+    font-size: 35;
+    font-family: Lexend Deca;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+
+/* pic links style */
+
+
+ .funFacts{
+    margin: 200px;
+    padding-bottom: 100px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 376px 376px 376px;
+    grid-template-rows: 285px 285px;
+    grid-row-gap: 20px;
+
+}
+
+.imgPage{
+
+    font-size: 45px;
+    font-family: Lexend Deca;
+    color: #B1BCE6;
+    position:relative;
+    padding: 20px;
+    top:200px;
+    text-align: center;
+
+
+}
+figcaption{
+    font-family: Lexend Deca;
+    font-size: 20px;
+    color: #F1F0C0;
+    background-color: #9A86A4;
+    width: 376px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
+/* list of websites */
+
+.linksP3{
+    margin: 200px;
+    padding-bottom: 100px;
+    position: absolute;
+}
+
+.linksP3 h1{
+
+    font-size: 45px;
+    font-family: Lexend Deca;
+    color: #B1BCE6;
+    position:relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.linksP3 li{
+    font-size: 38;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 2.5;
+    margin-left: 40%;
 
 }
