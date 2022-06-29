@@ -15,7 +15,9 @@
 .earthicon{
     height: 107px;
     width:107px ;
-    padding: 40px;
+    padding: 28px 40px 40px 40px;
+
+
 }
 
 .top-page{
@@ -24,6 +26,7 @@
    width: 1512px ;
    position:fixed;
    z-index: 2;
+   box-shadow: 0 0 10px 0 grey;
 
 
 }
@@ -78,6 +81,17 @@ color: #FFFFFF;
     margin: 20px;
 }
 
+.navbar li a{
+    color:white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color: #B7E5DD;
+}
+
+.navbar li a:after{
+    color: #B7E5DD;
+}
 
 .heroImg h1{
     font-family: 'Lexend Deca';
@@ -151,6 +165,26 @@ section p{
     margin: 200px;
     width: 1000px;
 
+
+
+}
+
+fieldset{
+    border: none;
+}
+
+* .joinUs{
+    box-sizing: border-box;
+    border: none;
+    margin-left: 600px;
+    margin-bottom: 40px;
+}
+
+.usersName legend{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
 }
 
 .joinUs legend{
@@ -165,7 +199,7 @@ section p{
     font-size: 35;
     font-family: Lexend Deca;
     font-weight: 200;
-    text-align: center;
+
 
 }
 
@@ -173,7 +207,28 @@ section p{
     font-size: 35;
     font-family: Lexend Deca;
     font-weight: 200;
-    text-align: center;
+}
+
+.checkbox{
+    margin: 20px;
+}
+
+.comments{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.submit{
+
+    margin-left: 50px;
+    font-family: Lexend Deca;
+    border: none;
+    color:#FFFFFF;
+    font-size: 22px;
+    background-color: #9A86A4;
+    border-radius: 30px;
+    padding: 10px;
 
 }
 
@@ -204,6 +259,10 @@ section p{
 
 
 }
+figure:hover{
+    filter: grayscale(60%);
+}
+
 figcaption{
     font-family: Lexend Deca;
     font-size: 20px;
@@ -241,4 +300,15 @@ figcaption{
     line-height: 2.5;
     margin-left: 40%;
 
+}
+
+.linksP3 li a{
+    text-decoration: none;
+    color: black ;
+
+}
+
+.linksP3 li a:hover{
+color:#9A86A4;
+text-decoration: underline;
 }
