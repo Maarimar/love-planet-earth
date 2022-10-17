@@ -1,2 +1,2 @@
 # love-planet-earth
-Capstone project for App Academy open using CSS and HTML
+basic web page using CSS and HTML
